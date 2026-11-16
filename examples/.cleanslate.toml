@@ -1,0 +1,8 @@
+# Copy this into the root of the workspace you scan (not into each project).
+[scan]
+exclude = [
+  "**/fixtures/**",
+  "**/customer-data/**",
+  "important-generated-report",
+]
+disable_rules = ["node-modules"]
